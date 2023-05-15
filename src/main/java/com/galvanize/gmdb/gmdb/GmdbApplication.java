@@ -1,12 +1,14 @@
-package com.galvanize.gmdb.gmdb;
+package com.gmdb.gmdb_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GmdbApplication {
+public class GmdbApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GmdbApplication.class, args);
+		SpringApplication.run(GmdbApiApplication.class, args);
+		System.out.println("Started.....!");
 	}
+
 }
